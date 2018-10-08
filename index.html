@@ -5,62 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Wheel Of Fortune</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <div id="Outline">
+
         <div id="letterArea">
-            <div id="letterWrap">
-                <div class="letterBox"></div>
-                <div class="letterBox"></div>
-                <div class="letterBox"></div>
-                <div class="letterBox"></div>
-            </div>
+            
         </div>
 
-        <div id="bottomArea1">
+        <div id="hintArea">
+
+        </div>
+
+        <!-- <div id="bottomArea1">
             <div id="chances" class="btmEle">
                 <div id="chance1" class="chance">X</div>
                 <div id="chance2" class="chance">X</div>
                 <div id="chance3" class="chance">X</div>
             </div>
-        </div>
+        </div> -->
 
 
         <div id="bottomArea2">
             <div id="letterButtons">
-                <button id="A" class="buttons">A</button>
-                <button id="B" class="buttons">B</button>
-                <button id="C" class="buttons">C</button>
-                <button id="D" class="buttons">D</button>
-                <button id="E" class="buttons">E</button>
-                <button id="F" class="buttons">F</button>
-                <button id="G" class="buttons">G</button>
-                <button id="H" class="buttons">H</button>
-                <button id="I" class="buttons">I</button>
-                <button id="J" class="buttons">J</button>
-                <button id="K" class="buttons">K</button>
-                <button id="L" class="buttons">L</button>
-                <button id="M" class="buttons">M</button>
-                <button id="N" class="buttons">N</button>
-                <button id="O" class="buttons">O</button>
-                <button id="P" class="buttons">P</button>
-                <button id="Q" class="buttons">Q</button>
-                <button id="R" class="buttons">R</button>
-                <button id="S" class="buttons">S</button>
-                <button id="T" class="buttons">T</button>
-                <button id="U" class="buttons">U</button>
-                <button id="V" class="buttons">V</button>
-                <button id="W" class="buttons">W</button>
-                <button id="X" class="buttons">X</button>
-                <button id="Y" class="buttons">Y</button>
-                <button id="Z" class="buttons">Z</button>                
+                <button value="A" class="buttons">A</button>
+                <button value="B" class="buttons">B</button>
+                <button value="D" class="buttons">D</button>
+                <button value="E" class="buttons">E</button>
+                <button value="C" class="buttons">C</button>
+                <button value="F" class="buttons">F</button>
+                <button value="G" class="buttons">G</button>
+                <button value="H" class="buttons">H</button>
+                <button value="I" class="buttons">I</button>
+                <button value="J" class="buttons">J</button>
+                <button value="K" class="buttons">K</button>
+                <button value="L" class="buttons">L</button>
+                <button value="M" class="buttons">M</button>
+                <button value="N" class="buttons">N</button>
+                <button value="O" class="buttons">O</button>
+                <button value="P" class="buttons">P</button>
+                <button value="Q" class="buttons">Q</button>
+                <button value="R" class="buttons">R</button>
+                <button value="S" class="buttons">S</button>
+                <button value="T" class="buttons">T</button>
+                <button value="U" class="buttons">U</button>
+                <button value="V" class="buttons">V</button>
+                <button value="W" class="buttons">W</button>
+                <button value="X" class="buttons">X</button>
+                <button value="Y" class="buttons">Y</button>
+                <button value="Z" class="buttons">Z</button>                
             </div>
 
         </div>
+
+        <div class="guessedDiv">
+            <p><b>USED LETTERS: </b></p><p id="usedLetters"></p>
+        </div>
+
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
